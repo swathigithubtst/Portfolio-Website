@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                  <!---image add cheyali--->
+                  <!--img src="Images/S.png" class="logo">
+                  <!-container ....add background image-->
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1 > Hi,I'm <span>Swathi</span><br> from Andhra Pradesh</h1>
+                </div>
+                </nav>
+            </div>
+        </div>
+        <div id="about">
+            <!--------------about----------->
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/IMG_20231124_191008_818.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                                                    
+                            Introduce yourself, tell them who you are and what you do.Then, talk about your past work experience, key responsibilities,
+                             and skills.Mention your relevant achievements. 
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab(skills)" >Skills</p>
+                            <p class="tab-links"onclick="opentab(Experience)" >Experience</p>
+                            <p class="tab-links"onclick="opentab(Education)" >Education</p>
+                        </div>
+                        <div class="tab-contents active-tab "id="skills">
+                            <ul>
+                                <li><span>Web Developer</span><br> Designing Web interfaces</li>
+                                <li><span>Manual Tester</span><br> Manual Testing</li>
+                                <li><span>Data Analyst</span><br> Data Visualisation Expert</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents"id="Experience">
+                            <ul>
+                                <li><span>2023-current</span><br> Internship Training at Intern Connect Academy</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2023</span><br> Designing Web interfaces</li>
+                                <li><span>2023</span><br>B.COM from Sanskriti Degree College Hyderabad</li>
+                                <li><span>2017</span><br> Diploma in Teacher training Course at St.Mary's Junior College</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!----------------------------Services-------------------------------->
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2> Web Design</h2>
+                    <p>Creating of websites and pages to reflect a company's brand and ensure a user-friendly experience.
+                         Appearance and design are incorporated as i designing a website, maintaining content on a web page</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2> Manual Tester</h2>
+                    <p>perform tests on the software to find and fix bugs, and issues within the software.
+                        Perform the role of an end-user while testing the software,
+                         And use the software features to ensure everything works correctly 
+                         from the point of view of an end-user</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2> Web Development</h2>
+                    <p> delivering websites or web apps, Cyber Security solutions, UX/UI design, eCommerce solutions, 
+                        website architectures, QA testing, maintenance, consulting, and even a custom CMS.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+      </div>
+      <!---------------------------Portfolie------------------>
+      <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png" alt="">
+                    
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p> The app commects you to the talented people around the world.
+                            Download from it play store</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Musical App</h3>
+                        <p> The app commects you to the talented people around the world.
+                            Download from it play store</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Shopping App</h3>
+                        <p> The app commects you to the talented people around the world.
+                            Download from it play store</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#"class="btn">See more</a>
+        </div>
+      </div>
+      <!---------------------------------------contact-------->
+      <div class="id">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Swathisrimadanapalli@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9493419608</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="yourname" required>
+                        <input tyoe="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+    </body>
+</html>
